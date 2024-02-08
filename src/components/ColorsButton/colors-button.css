@@ -1,0 +1,21 @@
+button {
+  padding: 10px 20px;
+  margin: 5px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  color: black;
+  background-color: #3498db; /* Default background color */
+  transition: background-color 0.3s ease;
+
+  &:hover {
+    background-color: #2980b9; /* Hover background color */
+  }
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
